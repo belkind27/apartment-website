@@ -1,0 +1,17 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:0-18",
+  "name": "apartment-website",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "rangav.vscode-thunder-client",
+        "ormulahendry.auto-rename-tag",
+        "pkief.material-icon-theme",
+        "esbenp.prettier-vscode",
+        "eamodio.gitlens"
+      ]
+    }
+  },
+  "forwardPorts": [3000]
+}
